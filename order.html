@@ -1,0 +1,90 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <link rel="shortcut icon" href="horns_and_hooves.ico" type="image/x-icon">
+        <hr></hr>
+        <p><strong>| <a href="index.html">Главная</a> | <a href="about.html">О компании</a> |
+            <a href="employee.html">Наши сотрудники</a> | 
+            <a href="education.html">Обучение</a> | <a href="gallery.html">Галерея</a> | 
+            <a href="#">Заказы</a> |</strong></p>
+            <hr></hr>
+        <input type="button" onclick="history.back();" value="Назад"/>
+        <hr></hr>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Заказы</title>
+    </head>
+    <body>
+        <label class="calculation">
+            <label>Наличный расчёт<input type="radio" name="calculation"></label>
+            <labe1>Безналичный расчёт<input type="radio" name="calculation"></labe1>
+        </label>
+        <p>
+            <label>Фамилия</label>
+            <input type="text" name="last_name">
+        </p>
+            <label>Имя</label>
+            <input type="text" name="first_name">
+        </p>
+        <p>
+            <label>Отчество</label>
+            <input type="text" name="middle_name">
+        </p>
+        <p>
+            <label>Email</label>
+            <input type="email" name="email">
+        </p>
+        <p>
+            <label>Телефон</label>
+            <input type="tel" name="phone">
+        </p>
+        <p>
+            <label>Пароль</label>
+            <input type="password" name="password">
+        </p>
+        <p>
+            <label>Подтвердите пароль</label>
+            <input type="password" name="password_confirm">
+        </p>
+        <p>
+            <label>Федеральный округ</label>
+            <select name="district">
+            <option>Федеральный</option>
+            <option>Южный</option>
+            <option>Северо-Западный</option>
+            <option>Дальневосточный</option>
+            <option>Сибирский</option>
+            <option>Уральский</option>
+            <option>Приволжский</option>
+            <option>Северо-Кавказский</option>
+            <option>Крымский</option>
+            </select>
+            </p>
+        <label>Заказываю</label>
+        <p>
+            <label>
+                <input type="checkbox"> рога в количестве
+            </label>
+            <input type="text">
+            <label>штук</label>
+        <p>
+            <label>
+                <input type="checkbox"> копыта в количестве
+            </label>
+            <input type="text">
+            <label>штук</label>
+        </p>
+        <p>
+            <label>Пожелания</label>
+            <br>
+            <textarea></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Подтвердить заказ">
+        </p>
+    </body>
+    <footer>
+        <hr></hr>
+        <p><i>© Бендер и компания</i></p>
+    </footer>
+</html>
